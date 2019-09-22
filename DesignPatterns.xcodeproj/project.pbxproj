@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		38267F3523377DC40099F207 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38267F3423377DC40099F207 /* main.swift */; };
+		38267F4323377E480099F207 /* DesignPatternsUnitTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38267F4223377E480099F207 /* DesignPatternsUnitTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,10 +26,20 @@
 /* Begin PBXFileReference section */
 		38267F3123377DC40099F207 /* DesignPatterns */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DesignPatterns; sourceTree = BUILT_PRODUCTS_DIR; };
 		38267F3423377DC40099F207 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		38267F4023377E480099F207 /* DesignPatternsUnitTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesignPatternsUnitTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		38267F4223377E480099F207 /* DesignPatternsUnitTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignPatternsUnitTest.swift; sourceTree = "<group>"; };
+		38267F4423377E480099F207 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		38267F2E23377DC40099F207 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38267F3D23377E480099F207 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,6 +53,7 @@
 			isa = PBXGroup;
 			children = (
 				38267F3323377DC40099F207 /* DesignPatterns */,
+				38267F4123377E480099F207 /* DesignPatternsUnitTest */,
 				38267F3223377DC40099F207 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,6 +62,7 @@
 			isa = PBXGroup;
 			children = (
 				38267F3123377DC40099F207 /* DesignPatterns */,
+				38267F4023377E480099F207 /* DesignPatternsUnitTest.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -57,9 +70,26 @@
 		38267F3323377DC40099F207 /* DesignPatterns */ = {
 			isa = PBXGroup;
 			children = (
+				38267F3B23377E220099F207 /* Factory Method */,
 				38267F3423377DC40099F207 /* main.swift */,
 			);
 			path = DesignPatterns;
+			sourceTree = "<group>";
+		};
+		38267F3B23377E220099F207 /* Factory Method */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Factory Method";
+			sourceTree = "<group>";
+		};
+		38267F4123377E480099F207 /* DesignPatternsUnitTest */ = {
+			isa = PBXGroup;
+			children = (
+				38267F4223377E480099F207 /* DesignPatternsUnitTest.swift */,
+				38267F4423377E480099F207 /* Info.plist */,
+			);
+			path = DesignPatternsUnitTest;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -82,6 +112,23 @@
 			productReference = 38267F3123377DC40099F207 /* DesignPatterns */;
 			productType = "com.apple.product-type.tool";
 		};
+		38267F3F23377E480099F207 /* DesignPatternsUnitTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38267F4523377E480099F207 /* Build configuration list for PBXNativeTarget "DesignPatternsUnitTest" */;
+			buildPhases = (
+				38267F3C23377E480099F207 /* Sources */,
+				38267F3D23377E480099F207 /* Frameworks */,
+				38267F3E23377E480099F207 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DesignPatternsUnitTest;
+			productName = DesignPatternsUnitTest;
+			productReference = 38267F4023377E480099F207 /* DesignPatternsUnitTest.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -93,6 +140,9 @@
 				ORGANIZATIONNAME = "Chawatvish Worrapoj";
 				TargetAttributes = {
 					38267F3023377DC40099F207 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					38267F3F23377E480099F207 = {
 						CreatedOnToolsVersion = 11.0;
 					};
 				};
@@ -111,9 +161,20 @@
 			projectRoot = "";
 			targets = (
 				38267F3023377DC40099F207 /* DesignPatterns */,
+				38267F3F23377E480099F207 /* DesignPatternsUnitTest */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		38267F3E23377E480099F207 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		38267F2D23377DC40099F207 /* Sources */ = {
@@ -121,6 +182,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				38267F3523377DC40099F207 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38267F3C23377E480099F207 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38267F4323377E480099F207 /* DesignPatternsUnitTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +331,42 @@
 			};
 			name = Release;
 		};
+		38267F4623377E480099F207 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 6TQHYB5RFL;
+				INFOPLIST_FILE = DesignPatternsUnitTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cwtech.example.DesignPatternsUnitTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		38267F4723377E480099F207 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 6TQHYB5RFL;
+				INFOPLIST_FILE = DesignPatternsUnitTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cwtech.example.DesignPatternsUnitTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -279,6 +384,15 @@
 			buildConfigurations = (
 				38267F3923377DC40099F207 /* Debug */,
 				38267F3A23377DC40099F207 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38267F4523377E480099F207 /* Build configuration list for PBXNativeTarget "DesignPatternsUnitTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38267F4623377E480099F207 /* Debug */,
+				38267F4723377E480099F207 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
