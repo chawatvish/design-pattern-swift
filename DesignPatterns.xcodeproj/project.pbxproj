@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		38267F3523377DC40099F207 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38267F3423377DC40099F207 /* main.swift */; };
-		38267F4323377E480099F207 /* DesignPatternsUnitTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38267F4223377E480099F207 /* DesignPatternsUnitTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,7 +26,6 @@
 		38267F3123377DC40099F207 /* DesignPatterns */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DesignPatterns; sourceTree = BUILT_PRODUCTS_DIR; };
 		38267F3423377DC40099F207 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		38267F4023377E480099F207 /* DesignPatternsUnitTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesignPatternsUnitTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		38267F4223377E480099F207 /* DesignPatternsUnitTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignPatternsUnitTest.swift; sourceTree = "<group>"; };
 		38267F4423377E480099F207 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -86,7 +84,6 @@
 		38267F4123377E480099F207 /* DesignPatternsUnitTest */ = {
 			isa = PBXGroup;
 			children = (
-				38267F4223377E480099F207 /* DesignPatternsUnitTest.swift */,
 				38267F4423377E480099F207 /* Info.plist */,
 			);
 			path = DesignPatternsUnitTest;
@@ -189,7 +186,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				38267F4323377E480099F207 /* DesignPatternsUnitTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
