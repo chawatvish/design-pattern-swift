@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		38267F4E23377F1C0099F207 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38267F4D23377F1C0099F207 /* main.swift */; };
-		38E1304F2337819700548253 /* FactoryMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38267F4823377E9F0099F207 /* FactoryMethod.swift */; };
-		38E13051233781ED00548253 /* FactoryMethodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E13050233781ED00548253 /* FactoryMethodTests.swift */; };
+		3854AD60233843B900472ADD /* FactoryMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3854AD5E233843B900472ADD /* FactoryMethod.swift */; };
+		3854AD62233843C000472ADD /* FactoryMethodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3854AD61233843C000472ADD /* FactoryMethodTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,12 +26,12 @@
 
 /* Begin PBXFileReference section */
 		38267F3123377DC40099F207 /* DesignPatterns */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DesignPatterns; sourceTree = BUILT_PRODUCTS_DIR; };
-		38267F4823377E9F0099F207 /* FactoryMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactoryMethod.swift; sourceTree = "<group>"; };
 		38267F4D23377F1C0099F207 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		3854AD5E233843B900472ADD /* FactoryMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FactoryMethod.swift; path = "DesignPatterns/Factory Method/FactoryMethod.swift"; sourceTree = SOURCE_ROOT; };
+		3854AD5F233843B900472ADD /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = "DesignPatterns/Factory Method/README.md"; sourceTree = SOURCE_ROOT; };
+		3854AD61233843C000472ADD /* FactoryMethodTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FactoryMethodTests.swift; path = "DesignPatternsUnitTest/Factory Method/FactoryMethodTests.swift"; sourceTree = SOURCE_ROOT; };
 		38E130472337816A00548253 /* DesignPatternsUnitTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesignPatternsUnitTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		38E1304B2337816A00548253 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		38E13050233781ED00548253 /* FactoryMethodTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactoryMethodTests.swift; sourceTree = "<group>"; };
-		38E130522337844000548253 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,7 +82,7 @@
 		38267F3B23377E220099F207 /* Factory Method */ = {
 			isa = PBXGroup;
 			children = (
-				38E13050233781ED00548253 /* FactoryMethodTests.swift */,
+				3854AD61233843C000472ADD /* FactoryMethodTests.swift */,
 			);
 			name = "Factory Method";
 			path = "../DesignPatterns/Factory Method";
@@ -91,8 +91,8 @@
 		38267F4A23377ED10099F207 /* Factory Method */ = {
 			isa = PBXGroup;
 			children = (
-				38267F4823377E9F0099F207 /* FactoryMethod.swift */,
-				38E130522337844000548253 /* README.md */,
+				3854AD5E233843B900472ADD /* FactoryMethod.swift */,
+				3854AD5F233843B900472ADD /* README.md */,
 			);
 			name = "Factory Method";
 			path = "DesignPatternsUnitTest/Factory Method";
@@ -198,6 +198,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				38267F4E23377F1C0099F207 /* main.swift in Sources */,
+				3854AD60233843B900472ADD /* FactoryMethod.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,8 +206,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				38E1304F2337819700548253 /* FactoryMethod.swift in Sources */,
-				38E13051233781ED00548253 /* FactoryMethodTests.swift in Sources */,
+				3854AD62233843C000472ADD /* FactoryMethodTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
