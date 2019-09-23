@@ -31,6 +31,7 @@
 		38E130472337816A00548253 /* DesignPatternsUnitTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesignPatternsUnitTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		38E1304B2337816A00548253 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		38E13050233781ED00548253 /* FactoryMethodTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactoryMethodTests.swift; sourceTree = "<group>"; };
+		38E130522337844000548253 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				38267F4823377E9F0099F207 /* FactoryMethod.swift */,
+				38E130522337844000548253 /* README.md */,
 			);
 			name = "Factory Method";
 			path = "DesignPatternsUnitTest/Factory Method";
